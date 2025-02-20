@@ -1,3 +1,13 @@
 .card-info{
-    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+}
+
+
+
+.slogan{
+    font-size: large;
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
