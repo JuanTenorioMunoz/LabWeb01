@@ -1,13 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Card from './components/Card/card'
+import gameInfo from './db/db'
 import './App.css'
 
+
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
+    <div className='cards-container'>
+      {gameInfo.map((card)=>{
+        return (<Card slogan={gameInfo.slogan} availability={gameInfo.availability} description={gameInfo.description} image={gameInfo.image}></Card>)
+      })}
+    </div>
     </>
   )
 }
