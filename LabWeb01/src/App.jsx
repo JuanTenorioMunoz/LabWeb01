@@ -8,8 +8,14 @@ function App() {
   return (
     <>
     <div className='cards-container'>
-      {gameInfo.map((card)=>{
-        return (<Card slogan={gameInfo.slogan} availability={gameInfo.availability} description={gameInfo.description} image={gameInfo.image}></Card>)
+      {gameInfo.map((card, index)=>{
+        return (
+        <Card 
+          key={index}
+          slogan={card.slogan} 
+          availability={card.availability} 
+          description={card.description}>
+        </Card>)
       })}
     </div>
     </>
