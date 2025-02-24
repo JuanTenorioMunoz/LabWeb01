@@ -1,4 +1,5 @@
-import GoldButton from "../GoldButton/GoldButton"
+import MyButton from "../MyButton/MyButton"
+import './header.css'
 
 const MyHeader = ({paradoxLogo, ckLogo, }) => {
     return(
@@ -16,7 +17,7 @@ const MyHeader = ({paradoxLogo, ckLogo, }) => {
             </div>
                 
             <div id="right-side">
-                <GoldButton text={"BUY NOW"}></GoldButton>
+                <MyButton text={"BUY NOW"}></MyButton>
                 <img id="shopping-cart"></img>
                 <p className="header-text">LOG IN</p>
             </div>

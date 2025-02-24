@@ -22,8 +22,7 @@ function App() {
         </Card>)
       })}
     </div>
-
-    
+      
     </>
   )
 }

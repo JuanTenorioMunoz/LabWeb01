@@ -1,4 +1,4 @@
-const GoldButton = ({text}) => {
+const MyButton = ({text}) => {
     return(
         <button>
             {text}
@@ -7,4 +7,4 @@ const GoldButton = ({text}) => {
 }
 
 
-export default GoldButton
+export default MyButton
