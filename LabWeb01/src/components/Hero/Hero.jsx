@@ -1,4 +1,5 @@
 import MyButton from "../MyButton/MyButton"
+import "./hero.css"
 
 const Hero = ({image,logo,}) => {
     return(
@@ -13,3 +14,5 @@ const Hero = ({image,logo,}) => {
         </div>
     )
 }
+
+export default Hero
