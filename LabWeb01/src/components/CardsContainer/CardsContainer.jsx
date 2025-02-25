@@ -9,7 +9,6 @@ const CardsContainer = ({cardsInfo}) => {
                 <Card 
                 key={index}
                 slogan={card.slogan} 
-                availability={card.availability} 
                 description={card.description}>
                 </Card>)
             })}
