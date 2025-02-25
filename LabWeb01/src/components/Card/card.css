@@ -1,13 +1,17 @@
 .card-info{
     display: flex;
     flex-direction: column;
-    width: 15vw;
+    align-items: center;
+    width: 40vw;
 }
 
-
+.card-description{
+    width: 130%;
+    color: #EAFFFF;
+}
 
 .slogan{
     font-size: large;
-    margin-top: 1px;
+    margin-top: 2rem;
     margin-bottom: 1px;
 }

@@ -1,4 +1,5 @@
 import Card from "../Card/card"
+import "./CardsContainer.css"
 
 const CardsContainer = ({cardsInfo}) => {
     return(
