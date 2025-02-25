@@ -1,17 +1,26 @@
-#header-container{
+#navbar-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: #22171D;
+    height: 72px;
     width: 100%;
-    position: fixed;
+    position: sticky;
     top:0;
     right: 0;
+    z-index: 1;
+}
+
+.navbar-text{
+    font-size: 12px;
 }
 
 #left-side{
     display: flex;
     flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    margin-left: 1rem;
 }
 
 #right-side{
@@ -19,6 +28,14 @@
     flex-direction: row;
 }
 
-.header-text{
+.navbar-text{
     color: white;
+}
+
+#ck-logo{
+    max-height: 90%;
+}
+
+#paradox-logo{
+    max-height: 70%;
 }
