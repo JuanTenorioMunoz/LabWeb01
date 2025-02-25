@@ -7,7 +7,7 @@ const Card = ({slogan, description, image}) => {
     return (
     <div className="card-info">
         <img className="card-image" src={image}></img>
-        <h1 className="slogan">{slogan}</h1>
+        <img className="slogan" src={slogan}></img>
         {descriptionArray.map((paragraph,index)=> {
             return(
                 <p key={index} className='description'>{paragraph}</p>
