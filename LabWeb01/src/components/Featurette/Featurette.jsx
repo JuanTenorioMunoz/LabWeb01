@@ -1,19 +1,32 @@
-import Card from "../Card/card";
-import "./CardsContainer.css";
+import "./Featurette.css"
+import MyButton from "../MyButton/MyButton"
 
-const CardsContainer = ({ cardsInfo }) => {
-    return (
-        <div className="cards-container">
-            {cardsInfo.map(({ id, slogan, image, description }) => (
-                <Card 
-                    key={id} 
-                    slogan={slogan} 
-                    image={image} 
-                    description={description} 
-                />
-            ))}
+const Featurette = ({id, db}) => {
+
+    const featurette = db.filter((item) => item.id === id);
+
+    featurette.map((featurette)=>{
+        return(
+        <div className="featurette-container">
+
+            <img className="featurette-banner" src={featurette.banner}></img>
+
+            <div className="featurette-text-container">
+                <h1 className="featurette-title">{featurette.title}</h1>
+                <h2 className="featurette-subtitle">{featurette.subtitle}</h2>
+                {featurette.description.map((paragraph)=>{
+                    return(
+                        <p className="featurette-paragraph">{paragraph}</p>
+                    )
+                })}
+
+                <MyButton text={featurette.buttonText}></MyButton>
+            </div>
         </div>
-    );
-};
+        )
+    })
 
-export default CardsContainer;
+    
+}
+
+export default Featurette
