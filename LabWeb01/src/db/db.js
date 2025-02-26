@@ -38,12 +38,13 @@ const featuretteInfo = [
         id: 0,
         title: "Crusader Kings III Comic Book",
         subtitle: "Many Roads to Power",
+        banner: "https://github.com/JuanTenorioMunoz/LabWeb01/blob/main/LabWeb01/src/assets/roads-comic.jpg?raw=true",
         buttonText: "Learn More",
         description: [
             "Dive into the epic world of Crusader Kings III with Many Roads to Power, a free digital comic book.",
-            "This 10-page digital comic from Dead Good Comics and Paradox Interactive tells the captivating story of Basil I the Macedonian and his dramatic rise to power to become one of the greatest emperors in Byzantine history.0",
+            "This 10-page digital comic from Dead Good Comics and Paradox Interactive tells the captivating story of Basil I the Macedonian and his dramatic rise to power to become one of the greatest emperors in Byzantine history",
         ]
     }
 ]
 
-export default gameInfo;
+export default {gameInfo, featuretteInfo}
