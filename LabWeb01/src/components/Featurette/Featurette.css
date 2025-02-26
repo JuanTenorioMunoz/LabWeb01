@@ -2,3 +2,9 @@
     display: flex;
     flex-direction: row;
 }
+
+.featurette-banner{
+    width: 50%;
+    aspect-ratio: auto 1920 / 1080;
+    height: auto;
+}
