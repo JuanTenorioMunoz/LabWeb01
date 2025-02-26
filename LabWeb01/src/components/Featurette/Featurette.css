@@ -1,0 +1,4 @@
+.featurette{
+    display: flex;
+    flex-direction: row;
+}
