@@ -3,6 +3,7 @@ import Hero from './components/Hero/Hero'
 import CardsContainer from './components/CardsContainer/CardsContainer'
 import Navbar from './components/MyHeader/Navbar'
 import {gameInfo, featuretteInfo} from './db/db'
+import VideoContainer from './components/VideoContainer/VideoContainer'
 import Featurette from './components/Featurette/Featurette'
 import './App.css'
 
@@ -17,6 +18,12 @@ function App() {
     <Featurette id={0} db={featuretteInfo}></Featurette>
     <CardsContainer cardsInfo={gameInfo}></CardsContainer>
     <Featurette id={1} db={featuretteInfo}></Featurette>
+    <VideoContainer 
+      section="Media"
+      title="Immerse yourself in Crusader Kings III"
+      video="https://www.youtube.com/embed/xjn66Cl3pMA"
+    ></VideoContainer>
+
 
     </>
   )
