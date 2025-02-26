@@ -44,6 +44,25 @@ export const featuretteInfo = [
             "Dive into the epic world of Crusader Kings III with Many Roads to Power, a free digital comic book.",
             "This 10-page digital comic from Dead Good Comics and Paradox Interactive tells the captivating story of Basil I the Macedonian and his dramatic rise to power to become one of the greatest emperors in Byzantine history",
         ]
-    }
+    },
+    {
+        id: 1,
+        title: "Legends of Crusader Kings III",
+        subtitle: "Five Rulers, Five Stories",
+        banner: "https://github.com/JuanTenorioMunoz/LabWeb01/blob/main/LabWeb01/src/assets/roads-comic.jpg?raw=true",
+        buttonText: "Meet the legends",
+        description: [
+            "Legends of Crusader Kings III is a narrative-driven initiative designed to introduce new players to the many ways they can play Crusader Kings III. Discover five legendary rulers, live their legends, or forge your own.",        ]
+    },
+    {
+        id: 2,
+        title: "",
+        subtitle: "Starter Edition",
+        banner: "https://github.com/JuanTenorioMunoz/LabWeb01/blob/main/LabWeb01/src/assets/roads-comic.jpg?raw=true",
+        buttonText: "buy now",
+        description: [
+            "Expand the power of your dynasty through warfare, diplomacy or underhanded scheming, assuring the safety and security of your realm through the generations across many centuries.",
+            "The Starter Edition gives you access to the base game, one Major Expansion, one Event Pack, and some cosmetic additions to make your first forays into Crusader Kings III a deep and filling experience."        ]
+    },
 ]
 

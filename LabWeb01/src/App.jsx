@@ -16,6 +16,7 @@ function App() {
     <Hero image={"https://images.ctfassets.net/u73tyf0fa8v1/ILvL75mZNtImSfKerDXnp/d896e2442d635c3265f977d37f09f44a/Web_Header_2540x13002.jpg?w=1920&q=75"}></Hero>  
     <Featurette id={0} db={featuretteInfo}></Featurette>
     <CardsContainer cardsInfo={gameInfo}></CardsContainer>
+    <Featurette id={1} db={featuretteInfo}></Featurette>
 
     </>
   )
