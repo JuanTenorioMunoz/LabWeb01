@@ -1,7 +1,7 @@
 import Card from "../Card/card"
 import "./CardsContainer.css"
 
-const CardsContainer = ({cardsInfo}) => {
+const CardsContainer = ({cardsInfo = []}) => {
     return(
 
         <div className='cards-container'>

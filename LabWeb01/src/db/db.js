@@ -1,6 +1,6 @@
 
 
-const gameInfo = [
+ export const gameInfo = [
     {   
         image: "https://github.com/JuanTenorioMunoz/LabWeb01/blob/main/LabWeb01/src/assets/1-header.png?raw=true" ,
         slogan: "https://github.com/JuanTenorioMunoz/LabWeb01/blob/main/LabWeb01/src/assets/ck3_feature1_logo.png?raw=true",
@@ -33,7 +33,7 @@ const gameInfo = [
     }
 ]
 
-const featuretteInfo = [
+export const featuretteInfo = [
     {
         id: 0,
         title: "Crusader Kings III Comic Book",
@@ -47,4 +47,3 @@ const featuretteInfo = [
     }
 ]
 
-export default {gameInfo, featuretteInfo}
