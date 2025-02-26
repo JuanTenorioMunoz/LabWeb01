@@ -22,3 +22,11 @@
 .hero{
     position: relative;
 }
+
+#gradient{
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    top: 80%;
+    background-image: linear-gradient(to top, #22171D, transparent);
+}
