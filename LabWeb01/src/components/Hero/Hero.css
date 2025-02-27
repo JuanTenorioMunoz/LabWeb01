@@ -30,3 +30,8 @@
     top: 80%;
     background-image: linear-gradient(to top, #22171D, transparent);
 }
+
+#hero-buttons{
+    display: flex;
+    flex-direction: row;
+}
