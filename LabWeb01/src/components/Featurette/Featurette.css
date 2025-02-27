@@ -1,6 +1,7 @@
 .featurette{
     display: flex;
     flex-direction: row;
+    gap: 8.5vw;
 }
 
 .featurette-banner{

@@ -16,10 +16,10 @@ const Featurette = ({id, db}) => {
                     <div key={index} className="featurette">
 
                         <img className="featurette-banner" src={feature.banner}/>
+
                         <div className="featurette-text-container">
                             <h1 className="featurette-title">{feature.title}</h1>
                             <h2 className="featurette-subtitle">{feature.subtitle}</h2>
-                            
                             {feature.description.map((paragraph, i) => (
                                 <p key={i} className="featurette-paragraph">{paragraph}</p>
                             ))}
