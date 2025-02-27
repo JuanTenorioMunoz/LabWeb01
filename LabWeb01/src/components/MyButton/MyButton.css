@@ -8,6 +8,7 @@
 
 .gold-button{
     background-color: #826A4C;
+    border-color: #E1BE7B;
 }
 
 .custom-button{
@@ -25,5 +26,12 @@
 .button-icon{
     width: 24px;
     height: 24px;
+}
+
+.small{
+    width: 80px;
+    height: 40px;
+    font-size: 12px;
+    padding: 0px;
 }
 

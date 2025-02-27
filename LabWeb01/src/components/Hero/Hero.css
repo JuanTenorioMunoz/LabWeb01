@@ -23,6 +23,11 @@
     position: relative;
 }
 
+#hero-buttons{
+    display: flex;
+    gap: 10px;  
+}
+
 #gradient{
     width: 100%;
     height: 20%;
