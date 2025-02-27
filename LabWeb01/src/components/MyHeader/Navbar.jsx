@@ -22,7 +22,6 @@ const Navbar = () => {
                 <p className="navbar-text">LOG IN</p>
             </div>
 
-
         </div>
     )
 }

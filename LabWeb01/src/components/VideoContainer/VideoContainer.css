@@ -8,3 +8,19 @@
     width: 1088px;
     height: 610px;
 }
+
+.video-section{
+    margin-bottom: -20px;
+}
+
+.arrow-button{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(160deg) brightness(106%) contrast(101%);
+}
+
+.arrows-container{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}

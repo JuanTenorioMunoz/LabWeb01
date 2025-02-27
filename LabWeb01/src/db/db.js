@@ -69,3 +69,21 @@ export const featuretteInfo = [
     },
 ]
 
+export const community = [
+    {
+        title: "Forums",
+        image: "",
+        description: "Share your suggestions with the team and discuss with your fellow rulers.",
+    },
+    {
+        title: "Wiki",
+        image: "",
+        description: "To help you get started, take a look at our Crusader Kings III Community Wiki.",
+    },
+    {
+        title: "Discord",
+        image: "",
+        description: "Join the official Crusader Kings Discord server.",
+    },
+
+]

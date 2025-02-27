@@ -1,8 +1,10 @@
 .featurette{
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 8.5vw;
+    margin-bottom: 50px;
 }
 
 .featurette-banner{
