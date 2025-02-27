@@ -18,7 +18,7 @@ const Featurette = ({id, db}) => {
                         <img className="featurette-banner" src={feature.banner}/>
 
                         <div className="featurette-text-container">
-                            <h1 className="featurette-title">{feature.title}</h1>
+                            <h1 className="featurette-title">{feature.title.toUpperCase()}</h1>
                             <h2 className="featurette-subtitle">{feature.subtitle}</h2>
                             {feature.description.map((paragraph, i) => (
                                 <p key={i} className="featurette-paragraph">{paragraph}</p>
