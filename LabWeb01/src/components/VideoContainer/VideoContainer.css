@@ -1,0 +1,10 @@
+.video-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contained-video{
+    width: 1088px;
+    height: 610px;
+}

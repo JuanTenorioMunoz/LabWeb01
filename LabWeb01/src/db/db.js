@@ -50,7 +50,7 @@ export const featuretteInfo = [
         id: 1,
         title: "Legends of Crusader Kings III",
         subtitle: "Five Rulers, Five Stories",
-        banner: "",
+        banner: "https://github.com/JuanTenorioMunoz/LabWeb01/blob/main/LabWeb01/src/assets/CK3_LegendsOfTheDead_Keyart1.jpg?raw=true",
         buttonText: "Meet the legends",
         buttonType: "arrow",
         description: [
@@ -60,7 +60,7 @@ export const featuretteInfo = [
         id: 2,
         title: "",
         subtitle: "Starter Edition",
-        banner: "https://images.ctfassets.net/u73tyf0fa8v1/1rLVnpiZEmT0HTirABOzBG/2dcbe9207a8c4823f3b05bf2bdde2119/CK3_LegendsOfTheDead_Keyart1.jpg",
+        banner: "https://github.com/JuanTenorioMunoz/LabWeb01/blob/main/LabWeb01/src/assets/ST_CKIII_STARTER_EDITION_1920x1080.jpg?raw=true",
         buttonText: "buy now",
         buttonType: "buy",
         description: [
