@@ -35,3 +35,13 @@
     padding: 0px;
 }
 
+.medium{
+    width:max-content;
+    height: 56px;
+    font-size: 12px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
