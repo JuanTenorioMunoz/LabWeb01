@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #22171D;
+    background-color: #101010;
     height: 72px;
     width: 100%;
     position: sticky;
@@ -11,8 +11,14 @@
     z-index: 1;
 }
 
+.shopping-cart{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(160deg) brightness(106%) contrast(101%);
+}
+
 .navbar-text{
     font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 500;
 }
 
 #left-side{

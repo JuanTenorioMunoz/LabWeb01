@@ -17,8 +17,8 @@ const Navbar = () => {
             </div>
                 
             <div id="right-side">
-                <MyButton text={"BUY NOW"}></MyButton>
-                <img id="shopping-cart"></img>
+                <MyButton text={"BUY NOW"} color={"gold"} size={"small"}></MyButton>
+                <img className="shopping-cart" src="https://raw.githubusercontent.com/JuanTenorioMunoz/LabWeb01/f7f83449c47f00b4c31da4757660285fc6381ab7/LabWeb01/src/assets/svg/cart.svg"/>
                 <p className="navbar-text">LOG IN</p>
             </div>
 

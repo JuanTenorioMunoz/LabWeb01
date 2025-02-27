@@ -23,7 +23,7 @@ const Featurette = ({id, db}) => {
                             {feature.description.map((paragraph, i) => (
                                 <p key={i} className="featurette-paragraph">{paragraph}</p>
                             ))}
-                            <MyButton text={feature.buttonText} />
+                            <MyButton text={feature.buttonText} color={"gold"}/>
                         </div>
 
                     </div>

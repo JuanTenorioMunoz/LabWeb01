@@ -10,7 +10,7 @@ const Hero = ({image,logo,}) => {
                 <img id="hero-logo" src="https://images.ctfassets.net/u73tyf0fa8v1/78eMnPuCsEMpHS3aZoM54i/48df13a2896e717a8c050d7f8f0180fa/CK3_Logo_Horizontal_White.png?w=3840&q=75"></img>
                 <div id="hero-buttons">
                     <MyButton text={"BUY NOW"} color={"white"} type={"buy"}></MyButton>
-                    <MyButton text={"WATCH TRAILER"} color={"white"}></MyButton>
+                    <MyButton text={"WATCH TRAILER"} color={"white"} type={"video"}></MyButton>
                 </div>
             </div>
             

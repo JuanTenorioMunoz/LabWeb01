@@ -1,4 +1,29 @@
-button{
+.white-button-text{
+    color: black;
+}
+
+.gold-button-text{
+    color: white;
+}
+
+.gold-button{
+    background-color: #826A4C;
+}
+
+.custom-button{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
+
+.button-icon{
+    width: 24px;
+    height: 24px;
+}
+
