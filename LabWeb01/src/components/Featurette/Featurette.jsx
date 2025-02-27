@@ -10,19 +10,25 @@ const Featurette = ({id, db}) => {
 
         return (
             <div className="featurette-container">
+
                 {featurette.map((feature, index) => (
+
                     <div key={index} className="featurette">
+
                         <img className="featurette-banner" src={feature.banner}/>
                         <div className="featurette-text-container">
                             <h1 className="featurette-title">{feature.title}</h1>
                             <h2 className="featurette-subtitle">{feature.subtitle}</h2>
+                            
                             {feature.description.map((paragraph, i) => (
                                 <p key={i} className="featurette-paragraph">{paragraph}</p>
                             ))}
                             <MyButton text={feature.buttonText} />
                         </div>
+
                     </div>
                 ))}
+
             </div>
         );
 

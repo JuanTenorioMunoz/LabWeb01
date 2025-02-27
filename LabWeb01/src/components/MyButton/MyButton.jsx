@@ -1,8 +1,8 @@
-const MyButton = ({text}) => {
+const MyButton = ({text, type, color}) => {
     return(
-        <button>
-            {text}
-        </button>
+            <button className={color + "-button"}>
+                <p className={color + "-button-text"}>{text}</p>
+            </button>
     )
 }
 
